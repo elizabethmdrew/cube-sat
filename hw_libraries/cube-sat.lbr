@@ -159,24 +159,24 @@
 </symbol>
 <symbol name="LT3652">
 <description>Solar Powered Battery Charger</description>
-<wire x1="-20.32" y1="22.86" x2="20.32" y2="22.86" width="0.254" layer="94"/>
-<wire x1="20.32" y1="22.86" x2="20.32" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-22.86" x2="-20.32" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="-22.86" x2="-20.32" y2="22.86" width="0.254" layer="94"/>
-<pin name="VIN" x="-25.4" y="20.32" length="middle"/>
+<wire x1="-20.32" y1="40.64" x2="20.32" y2="40.64" width="0.254" layer="94"/>
+<wire x1="20.32" y1="40.64" x2="20.32" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-30.48" x2="-20.32" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-30.48" x2="-20.32" y2="40.64" width="0.254" layer="94"/>
+<pin name="VIN" x="-25.4" y="27.94" length="middle"/>
 <pin name="VIN_REG" x="-25.4" y="12.7" length="middle"/>
-<pin name="!SHDN" x="-25.4" y="5.08" length="middle"/>
-<pin name="!CHRG" x="-25.4" y="-2.54" length="middle"/>
-<pin name="!FAULT" x="-25.4" y="-10.16" length="middle"/>
-<pin name="TIMER" x="-25.4" y="-17.78" length="middle"/>
-<pin name="SW" x="25.4" y="20.32" length="middle" rot="R180"/>
-<pin name="BOOST" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="!SHDN" x="-25.4" y="35.56" length="middle"/>
+<pin name="!CHRG" x="-25.4" y="-10.16" length="middle"/>
+<pin name="!FAULT" x="-25.4" y="-17.78" length="middle"/>
+<pin name="TIMER" x="-25.4" y="-25.4" length="middle"/>
+<pin name="SW" x="25.4" y="35.56" length="middle" rot="R180"/>
+<pin name="BOOST" x="25.4" y="20.32" length="middle" rot="R180"/>
 <pin name="SENSE" x="25.4" y="5.08" length="middle" rot="R180"/>
 <pin name="BAT" x="25.4" y="-2.54" length="middle" rot="R180"/>
 <pin name="NTC" x="25.4" y="-10.16" length="middle" rot="R180"/>
 <pin name="VFB" x="25.4" y="-17.78" length="middle" rot="R180"/>
-<text x="-20.32" y="27.94" size="1.778" layer="96">$VALUE</text>
-<text x="-20.32" y="25.4" size="1.778" layer="95">$NAME</text>
+<text x="-20.32" y="45.72" size="1.778" layer="96">$VALUE</text>
+<text x="-20.32" y="43.18" size="1.778" layer="95">$NAME</text>
 </symbol>
 </symbols>
 <devicesets>
